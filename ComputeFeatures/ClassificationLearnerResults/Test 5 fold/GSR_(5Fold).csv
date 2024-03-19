@@ -1,0 +1,42 @@
+Session: untitled,,,,,
+Training Data: features    Observations: 480,,,,,
+"Predictors: 14    Predictor Names: max_gsr, min_gsr, mean_gsr, var_gsr, max_gsr_phas, min_gsr_phas, mean_gsr_phas, var_gsr_phas, rate_peaks_gsr, height_peaks_gsr, peaks_area_gsr, peaks_area_per_sec_gsr, peaks_rise_time, reg_coef_gsr",,,,,
+"Response Name: misogynyLabel    Response Classes: 2    Response Class Names: 1, 2",,,,,
+Validation: 5-fold cross-validation,,,,,
+,,,,,
+,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation)
+0,2.1,Tree,Trained,51.4583333333333,233
+0,2.2,Tree,Trained,55.625,213
+0,2.3,Tree,Trained,58.9583333333333,197
+0,2.4,Discriminant,Trained,59.5833333333333,194
+0,2.5,Discriminant,Trained,51.0416666666667,235
+0,2.6,Binary GLM Logistic Regression,Trained,59.375,195
+0,2.7,Efficient Logistic Regression,Trained,59.5833333333333,194
+0,2.8,Efficient Linear SVM,Trained,59.1666666666667,196
+0,2.9,Naive Bayes,Trained,60.625,189
+0,2.10,Naive Bayes,Trained,57.5,204
+0,2.11,SVM,Trained,59.1666666666667,196
+0,2.12,SVM,Trained,60.4166666666667,190
+0,2.13,SVM,Trained,43.5416666666667,271
+0,2.14,SVM,Trained,59.7916666666667,193
+0,2.15,SVM,Trained,60.8333333333333,188
+0,2.16,SVM,Trained,59.7916666666667,193
+0,2.17,KNN,Trained,55.8333333333333,212
+0,2.18,KNN,Trained,54.7916666666667,217
+0,2.19,KNN,Trained,61.6666666666667,184
+0,2.20,KNN,Trained,54.5833333333333,218
+0,2.21,KNN,Trained,53.3333333333333,224
+0,2.22,KNN,Trained,57.9166666666667,202
+0,2.23,Ensemble,Trained,56.4583333333333,209
+0,2.24,Ensemble,Trained,54.7916666666667,217
+0,2.25,Ensemble,Trained,58.5416666666667,199
+0,2.26,Ensemble,Trained,55.625,213
+0,2.27,Ensemble,Trained,50.4166666666667,238
+0,2.28,Neural Network,Trained,56.875,207
+0,2.29,Neural Network,Trained,57.7083333333333,203
+0,2.30,Neural Network,Trained,55.2083333333333,215
+0,2.31,Neural Network,Trained,57.2916666666667,205
+0,2.32,Neural Network,Trained,55.2083333333333,215
+0,2.33,Kernel,Trained,59.5833333333333,194
+0,2.34,Kernel,Trained,59.5833333333333,194

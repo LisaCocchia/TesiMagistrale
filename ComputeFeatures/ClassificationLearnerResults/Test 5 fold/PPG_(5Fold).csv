@@ -1,0 +1,42 @@
+Session: untitled,,,,,
+Training Data: features    Observations: 480,,,,,
+"Predictors: 18    Predictor Names: max_ppg, min_ppg, mean_ppg, var_ppg, rate_peaks_ppg, IBI_mean, RMSSD, SDNN, SDSD, SD1, SD2, SD2SD1_ratio, ApEn, SampEn, VLF, LF, HF, LFHF_ratio",,,,,
+"Response Name: misogynyLabel    Response Classes: 2    Response Class Names: 1, 2",,,,,
+Validation: 5-fold cross-validation,,,,,
+,,,,,
+,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation)
+0,3.1,Tree,Trained,57.0833333333333,206
+0,3.2,Tree,Trained,58.9583333333333,197
+0,3.3,Tree,Trained,58.9583333333333,197
+0,3.4,Discriminant,Trained,63.3333333333333,176
+0,3.5,Discriminant,Failed,NaN,NaN
+0,3.6,Binary GLM Logistic Regression,Trained,62.5,180
+0,3.7,Efficient Logistic Regression,Trained,61.4583333333333,185
+0,3.8,Efficient Linear SVM,Trained,61.4583333333333,185
+0,3.9,Naive Bayes,Trained,55.8333333333333,212
+0,3.10,Naive Bayes,Trained,54.1666666666667,220
+0,3.11,SVM,Trained,62.5,180
+0,3.12,SVM,Trained,58.3333333333333,200
+0,3.13,SVM,Trained,58.3333333333333,200
+0,3.14,SVM,Trained,61.6666666666667,184
+0,3.15,SVM,Trained,60.4166666666667,190
+0,3.16,SVM,Trained,61.4583333333333,185
+0,3.17,KNN,Trained,58.3333333333333,200
+0,3.18,KNN,Trained,58.9583333333333,197
+0,3.19,KNN,Trained,61.4583333333333,185
+0,3.20,KNN,Trained,59.375,195
+0,3.21,KNN,Trained,59.1666666666667,196
+0,3.22,KNN,Trained,59.375,195
+0,3.23,Ensemble,Trained,61.25,186
+0,3.24,Ensemble,Trained,57.9166666666667,202
+0,3.25,Ensemble,Trained,61.4583333333333,185
+0,3.26,Ensemble,Trained,51.0416666666667,235
+0,3.27,Ensemble,Trained,51.0416666666667,235
+0,3.28,Neural Network,Trained,59.1666666666667,196
+0,3.29,Neural Network,Trained,56.25,210
+0,3.30,Neural Network,Trained,57.7083333333333,203
+0,3.31,Neural Network,Trained,57.5,204
+0,3.32,Neural Network,Trained,58.125,201
+0,3.33,Kernel,Trained,59.5833333333333,194
+0,3.34,Kernel,Trained,61.0416666666667,187

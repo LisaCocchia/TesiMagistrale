@@ -1,0 +1,42 @@
+Session: untitled,,,,,,,,,,
+Training Data: features    Observations: 480,,,,,,,,,,
+"Predictors: 14    Predictor Names: max_gsr, min_gsr, mean_gsr, var_gsr, max_gsr_phas, min_gsr_phas, mean_gsr_phas, var_gsr_phas, rate_peaks_gsr, height_peaks_gsr, peaks_area_gsr, peaks_area_per_sec_gsr, peaks_rise_time, reg_coef_gsr",,,,,,,,,,
+"Response Name: misogynyLabel    Response Classes: 2    Response Class Names: 1, 2",,,,,,,,,,
+Validation: 5-fold cross-validation,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation),Accuracy % (Test),Prediction Speed (obs/sec),Training Time (sec),Selected Features,PCA
+0,2.1,Tree,Trained,49.5833333333333,242,NaN,3104.2705061319,14.1697143,14/14,Disabled
+0,2.2,Tree,Trained,54.5833333333333,218,NaN,3074.35914022985,17.6297249,14/14,Disabled
+0,2.3,Tree,Trained,58.9583333333333,197,NaN,3089.78132072703,16.4079022,14/14,Disabled
+0,2.4,Discriminant,Failed,NaN,NaN,NaN,NaN,2.8402855,14/14,Disabled
+0,2.5,Discriminant,Failed,NaN,NaN,NaN,NaN,2.8685653,14/14,Disabled
+0,2.6,Binary GLM Logistic Regression,Trained,61.4583333333333,185,NaN,2996.11254397419,14.9720021,14/14,Disabled
+0,2.7,Efficient Logistic Regression,Trained,61.4583333333333,185,NaN,12096.0425780699,13.8920591,14/14,Disabled
+0,2.8,Efficient Linear SVM,Trained,61.4583333333333,185,NaN,12793.7225468037,13.3271942,14/14,Disabled
+0,2.9,Naive Bayes,Trained,39.1666666666667,292,NaN,5649.33849777028,12.6876465,14/14,Disabled
+0,2.10,Naive Bayes,Failed,NaN,NaN,NaN,NaN,12.0226079,14/14,Disabled
+0,2.11,SVM,Trained,61.4583333333333,185,NaN,12289.4786700736,11.4448694,14/14,Disabled
+0,2.12,SVM,Trained,61.4583333333333,185,NaN,11476.225087028,10.9564355,14/14,Disabled
+0,2.13,SVM,Trained,61.4583333333333,185,NaN,9875.08023502691,10.6201706,14/14,Disabled
+0,2.14,SVM,Trained,61.4583333333333,185,NaN,8931.47881099688,9.9905062,14/14,Disabled
+0,2.15,SVM,Trained,61.4583333333333,185,NaN,10383.0030240496,9.3817309,14/14,Disabled
+0,2.16,SVM,Trained,61.4583333333333,185,NaN,16189.9622234215,8.4941756,14/14,Disabled
+0,2.17,KNN,Trained,61.4583333333333,185,NaN,6193.97197485764,7.6361108,14/14,Disabled
+0,2.18,KNN,Trained,61.4583333333333,185,NaN,7792.56199957141,14.9348708,14/14,Disabled
+0,2.19,KNN,Trained,61.4583333333333,185,NaN,5398.21386598709,2.2558772,14/14,Disabled
+0,2.20,KNN,Trained,61.4583333333333,185,NaN,9049.44958608195,1.7737772,14/14,Disabled
+0,2.21,KNN,Trained,61.4583333333333,185,NaN,6829.63892552706,1.2406616,14/14,Disabled
+0,2.22,KNN,Trained,61.4583333333333,185,NaN,8750.62895145589,0.9705953,14/14,Disabled
+0,2.23,Ensemble,Trained,54.5833333333333,218,NaN,2071.33147776555,6.831426,14/14,Disabled
+0,2.24,Ensemble,Trained,52.7083333333333,227,NaN,1894.81188662867,6.304387,14/14,Disabled
+0,2.25,Ensemble,Trained,61.25,186,NaN,5142.52838836374,4.4869729,14/14,Disabled
+0,2.26,Ensemble,Trained,53.5416666666667,223,NaN,891.078135857114,7.4230563,14/14,Disabled
+0,2.27,Ensemble,Trained,48.5416666666667,247,NaN,1923.65648624906,8.3785745,14/14,Disabled
+0,2.28,Neural Network,Trained,61.4583333333333,185,NaN,9912.15353925832,11.3867611,14/14,Disabled
+0,2.29,Neural Network,Trained,61.4583333333333,185,NaN,8937.2992598799,12.5358693,14/14,Disabled
+0,2.30,Neural Network,Trained,61.4583333333333,185,NaN,9372.63853443176,18.8680368,14/14,Disabled
+0,2.31,Neural Network,Trained,61.4583333333333,185,NaN,11227.8075366658,14.1977733,14/14,Disabled
+0,2.32,Neural Network,Trained,61.4583333333333,185,NaN,19467.6411302588,15.8718609,14/14,Disabled
+0,2.33,Kernel,Trained,61.4583333333333,185,NaN,10590.0418306652,16.5262994,14/14,Disabled
+0,2.34,Kernel,Trained,61.4583333333333,185,NaN,11108.6168152058,16.2037834,14/14,Disabled

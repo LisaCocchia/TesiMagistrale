@@ -1,0 +1,110 @@
+Session: untitled,,,,,,,,
+Training Data: features_GSR_PPG    Observations: 480,,,,,,,,
+"Predictors: 32    Predictor Names: max_gsr, min_gsr, mean_gsr, var_gsr, max_gsr_phas, min_gsr_phas, mean_gsr_phas, var_gsr_phas, rate_peaks_gsr, height_peaks_gsr, peaks_area_gsr, peaks_area_per_sec_gsr, peaks_rise_time, reg_coef_gsr, max_ppg, min_ppg, mean_ppg, var_ppg, rate_peaks_ppg, IBI_mean, RMSSD, SDNN, SDSD, SD1, SD2, SD2SD1_ratio, ApEn, SampEn, VLF, LF, HF, LFHF_ratio",,,,,,,,
+"Response Name: labels    Response Classes: 2    Response Class Names: 1, 2",,,,,,,,
+Validation: 5-fold cross-validation,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation),Preset,Feature Ranking Algorithm,PCA
+0,2.1,Tree,Trained,55.2083333333333,215,Fine Tree,None,Disabled
+0,2.2,Tree,Trained,56.875,207,Medium Tree,None,Disabled
+0,2.3,Tree,Trained,54.7916666666667,217,Coarse Tree,None,Disabled
+0,2.4,Discriminant,Trained,60.625,189,Linear Discriminant,None,Disabled
+0,2.5,Discriminant,Failed,NaN,NaN,Quadratic Discriminant,None,Disabled
+0,2.6,Binary GLM Logistic Regression,Trained,61.875,183,Binary GLM Logistic Regression,None,Disabled
+0,2.7,Efficient Logistic Regression,Trained,61.4583333333333,185,Efficient Logistic Regression,None,Disabled
+0,2.8,Efficient Linear SVM,Trained,60.625,189,Efficient Linear SVM,None,Disabled
+0,2.9,Naive Bayes,Trained,61.875,183,Gaussian Naive Bayes,None,Disabled
+0,2.10,Naive Bayes,Trained,53.125,225,Kernel Naive Bayes,None,Disabled
+0,2.11,SVM,Trained,60,192,Linear SVM,None,Disabled
+0,2.12,SVM,Trained,57.0833333333333,206,Quadratic SVM,None,Disabled
+0,2.13,SVM,Trained,59.1666666666667,196,Cubic SVM,None,Disabled
+0,2.14,SVM,Trained,61.4583333333333,185,Fine Gaussian SVM,None,Disabled
+0,2.15,SVM,Trained,61.25,186,Medium Gaussian SVM,None,Disabled
+0,2.16,SVM,Trained,61.4583333333333,185,Coarse Gaussian SVM,None,Disabled
+0,2.17,KNN,Trained,57.7083333333333,203,Fine KNN,None,Disabled
+0,2.18,KNN,Trained,59.1666666666667,196,Medium KNN,None,Disabled
+0,2.19,KNN,Trained,61.4583333333333,185,Coarse KNN,None,Disabled
+0,2.20,KNN,Trained,59.7916666666667,193,Cosine KNN,None,Disabled
+0,2.21,KNN,Trained,57.7083333333333,203,Cubic KNN,None,Disabled
+0,2.22,KNN,Trained,59.375,195,Weighted KNN,None,Disabled
+0,2.23,Ensemble,Trained,56.4583333333333,209,Boosted Trees,None,Disabled
+0,2.24,Ensemble,Trained,57.9166666666667,202,Bagged Trees,None,Disabled
+0,2.25,Ensemble,Trained,60.2083333333333,191,Subspace Discriminant,None,Disabled
+0,2.26,Ensemble,Trained,53.3333333333333,224,Subspace KNN,None,Disabled
+0,2.27,Ensemble,Trained,50.4166666666667,238,RUSBoosted Trees,None,Disabled
+0,2.28,Neural Network,Trained,57.2916666666667,205,Narrow Neural Network,None,Disabled
+0,2.29,Neural Network,Trained,56.25,210,Medium Neural Network,None,Disabled
+0,2.30,Neural Network,Trained,57.2916666666667,205,Wide Neural Network,None,Disabled
+0,2.31,Neural Network,Trained,58.75,198,Bilayered Neural Network,None,Disabled
+0,2.32,Neural Network,Trained,58.5416666666667,199,Trilayered Neural Network,None,Disabled
+0,2.33,Kernel,Trained,60.2083333333333,191,SVM Kernel,None,Disabled
+0,2.34,Kernel,Trained,61.4583333333333,185,Logistic Regression Kernel,None,Disabled
+0,3.1,Tree,Trained,57.5,204,Fine Tree,None,70% explained variance
+0,3.2,Tree,Trained,58.3333333333333,200,Medium Tree,None,70% explained variance
+0,3.3,Tree,Trained,58.125,201,Coarse Tree,None,70% explained variance
+0,3.4,Discriminant,Trained,61.4583333333333,185,Linear Discriminant,None,70% explained variance
+0,3.5,Discriminant,Trained,57.7083333333333,203,Quadratic Discriminant,None,70% explained variance
+0,3.6,Binary GLM Logistic Regression,Trained,61.4583333333333,185,Binary GLM Logistic Regression,None,70% explained variance
+0,3.7,Efficient Logistic Regression,Trained,58.5416666666667,199,Efficient Logistic Regression,None,70% explained variance
+0,3.8,Efficient Linear SVM,Trained,55.625,213,Efficient Linear SVM,None,70% explained variance
+0,3.9,Naive Bayes,Trained,57.7083333333333,203,Gaussian Naive Bayes,None,70% explained variance
+0,3.10,Naive Bayes,Trained,57.9166666666667,202,Kernel Naive Bayes,None,70% explained variance
+0,3.11,SVM,Trained,55.4166666666667,214,Linear SVM,None,70% explained variance
+0,3.12,SVM,Trained,60.625,189,Quadratic SVM,None,70% explained variance
+0,3.13,SVM,Trained,56.25,210,Cubic SVM,None,70% explained variance
+0,3.14,SVM,Trained,61.4583333333333,185,Fine Gaussian SVM,None,70% explained variance
+0,3.15,SVM,Trained,61.4583333333333,185,Medium Gaussian SVM,None,70% explained variance
+0,3.16,SVM,Trained,61.4583333333333,185,Coarse Gaussian SVM,None,70% explained variance
+0,3.17,KNN,Trained,57.5,204,Fine KNN,None,70% explained variance
+0,3.18,KNN,Trained,57.2916666666667,205,Medium KNN,None,70% explained variance
+0,3.19,KNN,Trained,61.4583333333333,185,Coarse KNN,None,70% explained variance
+0,3.20,KNN,Trained,61.4583333333333,185,Cosine KNN,None,70% explained variance
+0,3.21,KNN,Trained,57.2916666666667,205,Cubic KNN,None,70% explained variance
+0,3.22,KNN,Trained,56.6666666666667,208,Weighted KNN,None,70% explained variance
+0,3.23,Ensemble,Trained,58.75,198,Boosted Trees,None,70% explained variance
+0,3.24,Ensemble,Trained,57.0833333333333,206,Bagged Trees,None,70% explained variance
+0,3.25,Ensemble,Trained,61.4583333333333,185,Subspace Discriminant,None,70% explained variance
+0,3.26,Ensemble,Trained,57.5,204,Subspace KNN,None,70% explained variance
+0,3.27,Ensemble,Trained,43.5416666666667,271,RUSBoosted Trees,None,70% explained variance
+0,3.28,Neural Network,Trained,60.625,189,Narrow Neural Network,None,70% explained variance
+0,3.29,Neural Network,Trained,60.2083333333333,191,Medium Neural Network,None,70% explained variance
+0,3.30,Neural Network,Trained,59.7916666666667,193,Wide Neural Network,None,70% explained variance
+0,3.31,Neural Network,Trained,58.9583333333333,197,Bilayered Neural Network,None,70% explained variance
+0,3.32,Neural Network,Trained,60.4166666666667,190,Trilayered Neural Network,None,70% explained variance
+0,3.33,Kernel,Trained,61.4583333333333,185,SVM Kernel,None,70% explained variance
+0,3.34,Kernel,Trained,61.4583333333333,185,Logistic Regression Kernel,None,70% explained variance
+0,4.1,Tree,Trained,57.9166666666667,202,Fine Tree,None,10 numeric components kept
+0,4.2,Tree,Trained,57.7083333333333,203,Medium Tree,None,10 numeric components kept
+0,4.3,Tree,Trained,56.0416666666667,211,Coarse Tree,None,10 numeric components kept
+0,4.4,Discriminant,Trained,60.2083333333333,191,Linear Discriminant,None,10 numeric components kept
+0,4.5,Discriminant,Trained,57.2916666666667,205,Quadratic Discriminant,None,10 numeric components kept
+0,4.6,Binary GLM Logistic Regression,Trained,60.2083333333333,191,Binary GLM Logistic Regression,None,10 numeric components kept
+0,4.7,Efficient Logistic Regression,Trained,58.75,198,Efficient Logistic Regression,None,10 numeric components kept
+0,4.8,Efficient Linear SVM,Trained,55,216,Efficient Linear SVM,None,10 numeric components kept
+0,4.9,Naive Bayes,Trained,56.875,207,Gaussian Naive Bayes,None,10 numeric components kept
+0,4.10,Naive Bayes,Trained,57.5,204,Kernel Naive Bayes,None,10 numeric components kept
+0,4.11,SVM,Trained,60.625,189,Linear SVM,None,10 numeric components kept
+0,4.12,SVM,Trained,58.125,201,Quadratic SVM,None,10 numeric components kept
+0,4.13,SVM,Trained,56.875,207,Cubic SVM,None,10 numeric components kept
+0,4.14,SVM,Trained,58.9583333333333,197,Fine Gaussian SVM,None,10 numeric components kept
+0,4.15,SVM,Trained,60.625,189,Medium Gaussian SVM,None,10 numeric components kept
+0,4.16,SVM,Trained,61.4583333333333,185,Coarse Gaussian SVM,None,10 numeric components kept
+0,4.17,KNN,Trained,59.375,195,Fine KNN,None,10 numeric components kept
+0,4.18,KNN,Trained,58.9583333333333,197,Medium KNN,None,10 numeric components kept
+0,4.19,KNN,Trained,61.4583333333333,185,Coarse KNN,None,10 numeric components kept
+0,4.20,KNN,Trained,59.1666666666667,196,Cosine KNN,None,10 numeric components kept
+0,4.21,KNN,Trained,58.9583333333333,197,Cubic KNN,None,10 numeric components kept
+0,4.22,KNN,Trained,60.4166666666667,190,Weighted KNN,None,10 numeric components kept
+0,4.23,Ensemble,Trained,56.4583333333333,209,Boosted Trees,None,10 numeric components kept
+0,4.24,Ensemble,Trained,57.5,204,Bagged Trees,None,10 numeric components kept
+0,4.25,Ensemble,Trained,60,192,Subspace Discriminant,None,10 numeric components kept
+0,4.26,Ensemble,Trained,56.0416666666667,211,Subspace KNN,None,10 numeric components kept
+0,4.27,Ensemble,Trained,45.2083333333333,263,RUSBoosted Trees,None,10 numeric components kept
+0,4.28,Neural Network,Trained,60.4166666666667,190,Narrow Neural Network,None,10 numeric components kept
+0,4.29,Neural Network,Trained,57.7083333333333,203,Medium Neural Network,None,10 numeric components kept
+0,4.30,Neural Network,Trained,57.9166666666667,202,Wide Neural Network,None,10 numeric components kept
+0,4.31,Neural Network,Trained,58.75,198,Bilayered Neural Network,None,10 numeric components kept
+0,4.32,Neural Network,Trained,59.7916666666667,193,Trilayered Neural Network,None,10 numeric components kept
+0,4.33,Kernel,Trained,59.375,195,SVM Kernel,None,10 numeric components kept
+0,4.34,Kernel,Trained,60.8333333333333,188,Logistic Regression Kernel,None,10 numeric components kept

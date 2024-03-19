@@ -1,0 +1,42 @@
+Session: untitled,,,,,,,
+Training Data: features_CL    Observations: 480,,,,,,,
+"Predictors: 36    Predictor Names: max_gsr, min_gsr, mean_gsr, var_gsr, max_gsr_phas, min_gsr_phas, mean_gsr_phas, var_gsr_phas, rate_peaks_gsr, height_peaks_gsr, peaks_area_gsr, peaks_area_per_sec_gsr, peaks_rise_time, reg_coef_gsr, max_ppg, min_ppg, mean_ppg, var_ppg, rate_peaks_ppg, IBI_mean, RMSSD, SDNN, SDSD, NN50, pNN50, NN20, pNN20, SD1, SD2, SD2SD1_ratio, ApEn, SampEn, VLF, LF, HF, LFHF_ratio",,,,,,,
+"Response Name: misogyny    Response Classes: 2    Response Class Names: 1, 2",,,,,,,
+Validation: 5-fold cross-validation,,,,,,,
+,,,,,,,
+,,,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation),PCA,Costs
+0,3.1,Tree,Trained,52.9166666666667,226,Disabled,Default
+0,3.2,Tree,Trained,54.7916666666667,217,Disabled,Default
+0,3.3,Tree,Trained,55.4166666666667,214,Disabled,Default
+0,3.4,Discriminant,Trained,61.0416666666667,187,Disabled,Default
+0,3.5,Discriminant,Failed,NaN,NaN,Disabled,Default
+0,3.6,Binary GLM Logistic Regression,Trained,62.5,180,Disabled,Default
+0,3.7,Efficient Logistic Regression,Trained,61.4583333333333,185,Disabled,Default
+0,3.8,Efficient Linear SVM,Trained,61.875,183,Disabled,Default
+0,3.9,Naive Bayes,Trained,58.3333333333333,200,Disabled,Default
+0,3.10,Naive Bayes,Trained,52.9166666666667,226,Disabled,Default
+0,3.11,SVM,Trained,60.625,189,Disabled,Default
+0,3.12,SVM,Trained,56.0416666666667,211,Disabled,Default
+0,3.13,SVM,Trained,54.7916666666667,217,Disabled,Default
+0,3.14,SVM,Trained,60,192,Disabled,Default
+0,3.15,SVM,Trained,61.25,186,Disabled,Default
+0,3.16,SVM,Trained,61.4583333333333,185,Disabled,Default
+0,3.17,KNN,Trained,55.2083333333333,215,Disabled,Default
+0,3.18,KNN,Trained,58.75,198,Disabled,Default
+0,3.19,KNN,Trained,61.4583333333333,185,Disabled,Default
+0,3.20,KNN,Trained,58.75,198,Disabled,Default
+0,3.21,KNN,Trained,58.5416666666667,199,Disabled,Default
+0,3.22,KNN,Trained,57.7083333333333,203,Disabled,Default
+0,3.23,Ensemble,Trained,53.75,222,Disabled,Default
+0,3.24,Ensemble,Trained,56.0416666666667,211,Disabled,Default
+0,3.25,Ensemble,Trained,62.9166666666667,178,Disabled,Default
+0,3.26,Ensemble,Trained,52.7083333333333,227,Disabled,Default
+0,3.27,Ensemble,Trained,51.6666666666667,232,Disabled,Default
+0,3.28,Neural Network,Trained,56.875,207,Disabled,Default
+0,3.29,Neural Network,Trained,55.625,213,Disabled,Default
+0,3.30,Neural Network,Trained,53.9583333333333,221,Disabled,Default
+0,3.31,Neural Network,Trained,55,216,Disabled,Default
+0,3.32,Neural Network,Trained,54.7916666666667,217,Disabled,Default
+0,3.33,Kernel,Trained,59.375,195,Disabled,Default
+0,3.34,Kernel,Trained,60.8333333333333,188,Disabled,Default

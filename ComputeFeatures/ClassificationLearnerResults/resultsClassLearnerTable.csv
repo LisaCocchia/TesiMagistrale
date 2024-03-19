@@ -1,0 +1,42 @@
+Session: untitled,,,,,
+Training Data: features_GSR_meme_tab    Observations: 480,,,,,
+"Predictors: 14    Predictor Names: max_gsr, min_gsr, mean_gsr, var_gsr, max_gsr_phas, min_gsr_phas, mean_gsr_phas, var_gsr_phas, rate_peaks_gsr, height_peaks_gsr, peaks_area_gsr, peaks_area_per_sec_gsr, peaks_rise_time, reg_coef_gsr",,,,,
+"Response Name: label    Response Classes: 2    Response Class Names: 1, 2",,,,,
+Validation: 5-fold cross-validation,,,,,
+,,,,,
+,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation)
+0,4.1,Tree,Trained,56.0416666666667,211
+0,4.2,Tree,Trained,57.9166666666667,202
+0,4.3,Tree,Trained,55.8333333333333,212
+0,4.4,Discriminant,Trained,61.0416666666667,187
+0,4.5,Discriminant,Trained,56.4583333333333,209
+0,4.6,Binary GLM Logistic Regression,Trained,60.625,189
+0,4.7,Efficient Logistic Regression,Trained,61.0416666666667,187
+0,4.8,Efficient Linear SVM,Trained,60.625,189
+0,4.9,Naive Bayes,Trained,61.0416666666667,187
+0,4.10,Naive Bayes,Trained,57.7083333333333,203
+0,4.11,SVM,Trained,61.4583333333333,185
+0,4.12,SVM,Trained,60,192
+0,4.13,SVM,Trained,51.25,234
+0,4.14,SVM,Trained,61.875,183
+0,4.15,SVM,Trained,62.2916666666667,181
+0,4.16,SVM,Trained,61.4583333333333,185
+0,4.17,KNN,Trained,58.125,201
+0,4.18,KNN,Trained,55.2083333333333,215
+0,4.19,KNN,Trained,61.4583333333333,185
+0,4.20,KNN,Trained,60.2083333333333,191
+0,4.21,KNN,Trained,55.625,213
+0,4.22,KNN,Trained,59.375,195
+0,4.23,Ensemble,Trained,60.2083333333333,191
+0,4.24,Ensemble,Trained,56.25,210
+0,4.25,Ensemble,Trained,61.0416666666667,187
+0,4.26,Ensemble,Trained,59.1666666666667,196
+0,4.27,Ensemble,Trained,50.625,237
+0,4.28,Neural Network,Trained,60.4166666666667,190
+0,4.29,Neural Network,Trained,55.8333333333333,212
+0,4.30,Neural Network,Trained,56.25,210
+0,4.31,Neural Network,Trained,55.8333333333333,212
+0,4.32,Neural Network,Trained,60.4166666666667,190
+0,4.33,Kernel,Trained,57.0833333333333,206
+0,4.34,Kernel,Trained,59.1666666666667,196
